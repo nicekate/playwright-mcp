@@ -744,6 +744,11 @@ flowchart TD
     F --> H[WebSocket 通信]
     G --> I[HTTP 长连接]
     D --> J[标准输入输出]
+
+    style A fill:#e3f2fd
+    style D fill:#e8f5e8
+    style G fill:#fff3e0
+    style H fill:#f3e5f5
 ```
 
 ### 5. 页面快照系统 (Page Snapshot System)
@@ -869,6 +874,11 @@ flowchart TD
     I --> K
     J --> K
     K --> L[返回错误响应]
+
+    style A fill:#e3f2fd
+    style C fill:#e8f5e8
+    style D fill:#ffebee
+    style K fill:#fff3e0
 ```
 
 ## 配置文件说明
